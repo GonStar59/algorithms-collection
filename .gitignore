@@ -4,14 +4,14 @@
 *.ctxt
 
 # --- Carpetas de compilación ---
-# Aquí es donde Eclipse e IntelliJ guardan lo que compilan
+
 bin/
 out/
 build/
 target/
 
 # --- Archivos de Dependencias y Paquetes ---
-# No queremos subir librerías pesadas ni zips
+
 *.jar
 *.war
 *.nar
