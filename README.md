@@ -11,7 +11,7 @@ This repository serves as a portfolio of advanced algorithm implementations and 
 * **Implementation:** Recursive **Backtracking** (DFS) on Directed Graphs.
 * **Key Features:** * Efficient state management using HashSets for O(1) lookups.
   * Dynamic parsing of Adjacency Matrices.
-  * Cycle detection and pruning optimization.
+  * Cycle detection.
 
 ### 2. Huffman Compression 
 * **File:** `java/src/aed/huffman/Huffman.java`
