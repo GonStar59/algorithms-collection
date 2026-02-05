@@ -7,31 +7,30 @@ The focus of this collection is on **algorithmic complexity**, **memory efficien
 
 ## Modules
 
-### 1. Logistics Optimization (Graph Theory)
-* **File:** `src/aed/delivery/Delivery.java`
+### 1. Hamiltonian Path
+* **File:** `java/src/aed/delivery/Delivery.java`
 * **Problem:** Hamiltonian Path Problem (NP-Complete).
 * **Implementation:** Recursive **Backtracking** (DFS) on Directed Graphs.
 * **Key Features:** * Efficient state management using HashSets for O(1) lookups.
   * Dynamic parsing of Adjacency Matrices.
   * Cycle detection and pruning optimization.
 
-### 2. Huffman Compression (Information Theory)
-* **File:** `src/aed/huffman/Huffman.java`
+### 2. Huffman Compression 
+* **File:** `java/src/aed/huffman/Huffman.java`
 * **Problem:** Lossless data compression.
 * **Implementation:** Construction of optimal prefix codes using **Priority Queues** and Binary Trees.
 * **Key Features:**
   * **StringBuilder** optimization for O(n) encoding complexity.
   * Recursive decoding logic traversing the Huffman Tree.
 
-### 3. Treap (Randomized Data Structures)
-* **File:** `src/aed/treap/Treap.java`
+### 3. Treap 
+* **File:** `java/src/aed/treap/Treap.java`
 * **Problem:** Maintaining a balanced Binary Search Tree (BST) without complex deterministic rotations (like AVL/Red-Black).
 * **Implementation:** A probabilistic data structure combining a BST and a Min-Heap.
 * **Key Features:**
   * **O(log n)** expected complexity for search, insert, and delete operations.
-  * **Custom Iterator:** Implemented a fail-fast iterator to traverse the tree in-order.
+  * **Custom Iterator:** Implemented memory eficient in-order iterator.
 
 ## Technologies
 * **Language:** Java (JDK 22)
-* **Concepts:** Recursion, Greedy Algorithms, Probabilistic Structures.
 * **Dependencies:** UPM Academic Library (`es.upm.aedlib`)
