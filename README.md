@@ -41,6 +41,10 @@ This repository serves as a portfolio of advanced algorithm implementations and 
 * **File:** `matlab\newton.m`
 * Calculating coefficients of the polynomial with the divided differences method and evaluating the function with an O(N) algorithm
   
+### 6. Newton's Method
+* **File:** `matlab\newtonRootfinder.m`
+* Uses Newtons method to find the root of a function with and iterative mehod to get closer to the root with each iteration.
+
 ### 7. Quadratic Spline
 * **File:** `matlab\spline2.m`
 * Using Quadratic Spline Interpolation to transform discrete datasets into $C^1$ functions
