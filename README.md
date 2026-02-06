@@ -33,21 +33,25 @@ This repository serves as a portfolio of advanced algorithm implementations and 
 * **File:** `matlab\bisecc.m`
 * Implementing an iterative algorithm with linear convergence to find the root of a continuous function.
   
-### 5. Solving Linear Systems
-* **File:** `matlab\resuelve.m`
-* Using Gaussian Elimination with pivoting to solve linear systems. Pivoting minimizes floating-point errors and allows the solution of ill-conditioned matrices.
-
-### 6. Newton's Polynomial Interpolation
-* **File:** `matlab\newton.m`
-* Calculating coefficients of the polynomial with the divided differences method and evaluating the function with an O(N) algorithm
-  
-### 6. Newton's Method
+### 5. Newton's Method
 * **File:** `matlab\newtonRootfinder.m`
 * Uses Newton's method to find the root of a function with an iterative method to get closer to the root with each iteration.
 
-### 7. Quadratic Spline
+### 6. Secant Method
+* **File:** `matlab\secante.m`
+* A method with superlinear convergence to find roots of nonlinear equations. 
+  
+### 7. Solving Linear Systems
+* **File:** `matlab\resuelve.m`
+* Using Gaussian Elimination with pivoting to solve linear systems. Pivoting minimizes floating-point errors and allows the solution of ill-conditioned matrices.
+  
+### 8. Quadratic Spline
 * **File:** `matlab\spline2.m`
 * Using Quadratic Spline Interpolation to transform discrete datasets into $C^1$ functions
+
+### 9. Newton's Polynomial Interpolation
+* **File:** `matlab\newton.m`
+* Calculating coefficients of the polynomial with the divided differences method and evaluating the function with an O(N) algorithm
   
 ## Technologies
 * **Language:** Java (JDK 22)
