@@ -1,7 +1,7 @@
-# Java Algorithms & Data Structures Collection
+# Algorithms & Data Structures Collection
 
 ## Overview
-This repository serves as a portfolio of advanced algorithm implementations and custom data structures developed during my Mathematics and Computer Science studies at **Universidad Politécnica de Madrid (UPM)**. 
+This repository serves as my portfolio of advanced algorithm implementations and custom data structures developed during my Mathematics and Computer Science studies at **Universidad Politécnica de Madrid (UPM)**. 
 
 ## Modules
 
